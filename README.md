@@ -16,7 +16,7 @@ For Windows, you should have installed drivers from Rockchip. You can download t
 **Note:** Updating an add-on removes additional [Magisk](https://magiskmanager.com/) modules. You'll have to re-install them after the update.
 
 ## How to return back to the official firmware
-After iBasso released OTA-like update, it will be enough to re-apply any official firmware update, then do a factory reset. Until then, I provide packages to revert back to the official firmware the same way as you flashed the add-on.
+After iBasso would release OTA-like update, it will be enough to re-apply any official firmware update, then do a factory reset. Until then, I provide packages to revert back to the official firmware the same way as you flashed the add-on.
 
 ## How to update the official firmware
 True OTA does not work with add-on, because the build number is different. You need to download the update from [iBasso site](http://ibasso.com/down.php), put it to SD-card or Internal storage, and start manual upgrade. Then you may install an add-on compatible with the new firmware version, if any.
