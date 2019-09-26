@@ -24,18 +24,25 @@ True OTA does not work with add-on, because the build number is different. You n
 ## Changes made
 ### Android
 * Google Play Store added.
+* Reduced power consumption during music playback and in suspend mode.
+* Overall performance increased.
+* During music playback, the device is managed to prevent idle state tasks.
+* Performance tweak for popular music players (Neutron, UAPP, Tidal, Spotify). Such a tweak is used on Rockchip SoC based devices for benchmark apps, iBasso sets it for its Mango Player.
+* Better thermal control.
+* A different approach to control brightness at low levels.
+* The process of [device registration](https://www.google.com/android/uncertified/) is much simplified (required to make Google Play Services work on uncertified device).
 * [Magisk](https://magiskmanager.com/) can be used to install additional modules, and to provide root access.
 * [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md), which is also useful for its [System settings](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings).
 * Custom build of [HibyMusic](https://play.google.com/store/apps/details?id=com.hiby.music), which plays bit perfect PCM up to 32/384kHz with no additional efforts, and fully compatible with [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) for bit perfect DSD and SACD ISO playback.
-* 126MHz CPU frequency added (216MHz is officially lowest), which is enough for most tasks.
-* Overall performance increased.
-* During music playback, the device is managed to prevent idle state tasks.
-* Better thermal control, to prevent overheating.
-* A different approach to control brightness at low levels.
-* Less power consumption in suspend mode.
-* The process of [device registration](https://www.google.com/android/uncertified/) is much simplified (required to make Google Play Services work on uncertified device).
 ### Mango
 * Added Mango mode from DX220.
+
+**Note**: Mango OS player wa taken from DX220, and, as such, is not 100% compatible. The known restrictions and problems are:
+* Only first 4 Digital Filter options actually work.
+* Only two levels of gain actually work: Medium and High produce the same result.
+* Optical Output setting does not work.
+* If you put on Pause during PCM playback for more than a minute, resuming playback produces silence. Workaround: push Pause/Play one more time.
+* After playing DSD files, PCM files don't produce sound. Workaround: either turn the device off then on, or put on pause for one minute or more and resume playback.
 
 ## History of public releases
 * [**1.22**](https://github.com/Lurker00/DX160-Firmware-Add-on/releases/tag/v1.22) - release for official firmware 1.00.055.
