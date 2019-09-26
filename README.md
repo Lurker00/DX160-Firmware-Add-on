@@ -25,7 +25,7 @@ True OTA does not work with add-on, because the build number is different. You n
 It's up to the end user to decide whether these changes affect sound or not. I believe some of them make sound better, and none of them make sound worse.
 
 ### Android
-* Google Play Store added.
+* Google Play Market added.
 * Reduced power consumption during music playback and in suspend mode.
 * Overall performance increased.
 * During music playback, the device is managed to prevent idle state tasks.
