@@ -34,10 +34,10 @@ True OTA does not work with add-on, because the build number is different. You n
 * [Magisk](https://magiskmanager.com/) can be used to install additional modules, and to provide root access.
 * [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md), which is also useful for its [System settings](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings).
 * Custom build of [HibyMusic](https://play.google.com/store/apps/details?id=com.hiby.music), which plays bit perfect PCM up to 32/384kHz with no additional efforts, and fully compatible with [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) for bit perfect DSD and SACD ISO playback.
-### Mango
-* Added Mango mode from DX220.
+### Mango OS
+* Added Mango OS mode from DX220.
 
-**Note**: Mango OS player wa taken from DX220, and, as such, is not 100% compatible. The known restrictions and problems are:
+**Note**: Mango OS player was taken from DX220, and, as such, is not 100% compatible. The known restrictions and problems are:
 * Only first 4 Digital Filter options actually work.
 * Only two levels of gain actually work: Medium and High produce the same result.
 * Optical Output setting does not work.
