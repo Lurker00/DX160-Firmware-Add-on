@@ -36,6 +36,7 @@ It's up to the end user to decide whether these changes affect sound or not. I b
 * [Magisk](https://magiskmanager.com/) can be used to install additional modules, and to provide root access.
 * [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md), which is also useful for its [System settings](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings).
 * Custom build of [HibyMusic](https://play.google.com/store/apps/details?id=com.hiby.music), which plays bit perfect PCM up to 32/384kHz with no additional efforts, and is fully compatible with [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) for bit perfect DSD and SACD ISO playback.
+* Removed APKPure, CoolAPK, Viper HiFi (to free space for Mango OS).
 ### Mango OS
 * Added Mango OS mode from DX220.
 
