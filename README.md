@@ -48,4 +48,5 @@ It's up to the end user to decide whether these changes affect sound or not. I b
 * After playing DSD files, PCM files don't produce sound. Workaround: either turn the device off then on, or put on pause for one minute or more and resume playback.
 
 ## History of public releases
+* [**1.23**](https://github.com/Lurker00/DX160-Firmware-Add-on/releases/tag/v1.23) - release for official firmware 1.01.084.
 * [**1.22**](https://github.com/Lurker00/DX160-Firmware-Add-on/releases/tag/v1.22) - release for official firmware 1.00.055.
