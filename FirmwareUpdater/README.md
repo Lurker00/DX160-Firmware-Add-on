@@ -22,16 +22,15 @@ If all went right way, you should have SD-card labeled as `DX160UPDATE`, with th
 
 **WARNING:** Firmware update from bootable SD card is performed only when DX160 is not connected to a power supply or USB port. Charge it before starting firmware update!
 
-You need firmware update image file. For Android Oreo, iBasso provides `update.img` in its download. My firmware releases, to be used with RockChip FactoryTool (*not* files to be used with rkflashtool!), contain compatible `.img` file as well.
+You need firmware update image file. My firmware releases to use with SD-card contain compatible `sdupdate.img`.
 
-1. Rename required `.img` file to `sdupdate.img`.
-2. Copy resulting `sdupdate.img` to the prepared bootable SD-card, confirming to overwrite existing file.
-3. Safely remove (unmount) SD-card from the computer.
-4. Disconnect DX160 from a charger or USB port (if it is connected).
-5. If your DX160 boots to Mango, switch it to boot to Android.
-6. Turn DX160 off.
-7. Insert SD-card into DX160.
-8. Turn DX160 on.
+1. Copy `sdupdate.img` to the prepared bootable SD-card, confirming to overwrite existing file.
+2. Safely remove (unmount) SD-card from the computer.
+3. Disconnect DX160 from a charger or USB port (if it is connected).
+4. If your DX160 boots to Mango, switch it to boot to Android.
+5. Turn DX160 off.
+6. Insert SD-card into DX160.
+7. Turn DX160 on.
 
 In a few seconds it should start updating the firmware. At the end, it will prompt you to remove the SD-card from the slot, and will continue update, then erase storages and boot the device.
 
