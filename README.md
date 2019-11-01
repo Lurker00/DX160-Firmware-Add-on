@@ -16,10 +16,10 @@ For Windows, you should have installed drivers from Rockchip. You can download t
 **Note:** Updating an add-on removes additional [Magisk](https://magiskmanager.com/) modules. You'll have to re-install them after the update.
 
 ## How to return back to the official firmware
-After iBasso would release OTA-like update, it will be enough to re-apply any official firmware update, then do a factory reset. Until then, you can flash [full firmware image version 1.00.055](https://www.head-fi.org/threads/ibasso-dx160-the-listening-experience-only-gets-better-and-better.912228/), and then update via OTA.
+After iBasso would release OTA-like update, it will be enough to re-apply any official firmware update, then do a factory reset. Until then, you can search the [Releases](https://github.com/Lurker00/DX160-Firmware-Add-on/releases) section for a package for your firmware version, and apply it.
 
 ## How to update the official firmware
-True OTA does not work with add-on, because the build number is different. You need to download the update from [iBasso site](http://ibasso.com/down.php), put it to SD-card or Internal storage, and start manual upgrade. Then you may install an add-on compatible with the new firmware version, if any.
+True OTA does not work with add-on, because the build number is different. You have to return back to the official firmware ([see above](#how-to-return-back-to-the-official-firmware)), then use OTA. After that, you can apply the [add-on, compatible with the new firmware version](#history-of-public-releases).
 
 ## Changes made
 It's up to the end user to decide whether these changes affect sound or not. I believe some of them make sound better, and none of them make sound worse.
@@ -48,5 +48,6 @@ It's up to the end user to decide whether these changes affect sound or not. I b
 * After playing DSD files, PCM files don't produce sound. Workaround: either turn the device off then on, or put on pause for one minute or more and resume playback.
 
 ## History of public releases
+* [**1.24**](https://github.com/Lurker00/DX160-Firmware-Add-on/releases/tag/v1.24) - release for official firmware 1.02.109.
 * [**1.23**](https://github.com/Lurker00/DX160-Firmware-Add-on/releases/tag/v1.23) - release for official firmware 1.01.084.
 * [**1.22**](https://github.com/Lurker00/DX160-Firmware-Add-on/releases/tag/v1.22) - release for official firmware 1.00.055.
