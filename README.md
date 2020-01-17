@@ -50,6 +50,7 @@ It's up to the end user to decide whether these changes affect sound or not. I b
 **Note 2**: MagiskManager icon is, actually, a stub injected by Magisk core. It is intended by the developer to help installing full MagiskManager, but I disable it to stop annoying. Should you need [MagiskManager, please install it manually](https://github.com/topjohnwu/Magisk/releases).
 
 ## History of public releases
+* [**1.26**](https://github.com/Lurker00/DX160-Firmware-Add-on/releases/tag/v1.26) - release for official firmware 1.04.145.
 * [**1.25**](https://github.com/Lurker00/DX160-Firmware-Add-on/releases/tag/v1.25) - release for official firmware 1.03.123.
 * [**1.24**](https://github.com/Lurker00/DX160-Firmware-Add-on/releases/tag/v1.24) - release for official firmware 1.02.109.
 * [**1.23**](https://github.com/Lurker00/DX160-Firmware-Add-on/releases/tag/v1.23) - release for official firmware 1.01.084.
