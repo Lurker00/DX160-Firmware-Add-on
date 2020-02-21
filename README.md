@@ -44,8 +44,8 @@ It's up to the end user to decide whether these changes affect sound or not. I b
 * Only first 4 Digital Filter options actually work.
 * Only two levels of gain actually work: Medium and High produce the same result.
 * Optical Output setting does not work.
-* If you put on Pause during PCM playback for more than a minute, resuming playback produces silence. Workaround: push Pause/Play one more time.
-* After playing DSD files, PCM files don't produce sound. Workaround: either turn the device off then on, or put on pause for one minute or more and resume playback.
+* ~~If you put on Pause during PCM playback for more than a minute, resuming playback produces silence. Workaround: push Pause/Play one more time.~~ (resolved in 1.26b3)
+* ~~After playing DSD files, PCM files don't produce sound. Workaround: either turn the device off then on, or put on pause for one minute or more and resume playback.~~ (resolved in 1.26b3)
 
 **Note 2**: MagiskManager icon is, actually, a stub injected by Magisk core. It is intended by the developer to help installing full MagiskManager, but I disable it to stop annoying. Should you need [MagiskManager, please install it manually](https://github.com/topjohnwu/Magisk/releases).
 
