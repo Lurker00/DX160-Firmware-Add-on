@@ -44,6 +44,7 @@ It's up to the end user to decide whether these changes affect sound or not. I b
 * Only first 4 Digital Filter options actually work.
 * Only two levels of gain actually work: Medium and High produce the same result.
 * Optical Output setting does not work.
+* Due to the new touch screen driver, on DX160 2020 edition, Mango OS boots much longer than on 2019 edition.
 * ~~If you put on Pause during PCM playback for more than a minute, resuming playback produces silence. Workaround: push Pause/Play one more time.~~ (resolved in 1.26b3)
 * ~~After playing DSD files, PCM files don't produce sound. Workaround: either turn the device off then on, or put on pause for one minute or more and resume playback.~~ (resolved in 1.26b3)
 
