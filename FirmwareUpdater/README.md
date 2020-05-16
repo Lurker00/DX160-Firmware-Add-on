@@ -22,7 +22,7 @@ If all went right way, you should have SD-card labeled as `DX160UPDATE`, with th
 
 **WARNING:** Firmware update from bootable SD card is performed only when DX160 is not connected to a power supply or USB port. Charge it before starting firmware update!
 
-You need firmware update image file. My firmware releases to use with SD-card contain compatible `sdupdate.img`.
+You need firmware update image file. My firmware add-on releases to use with SD-card contain compatible `sdupdate.img`.
 
 1. Copy `sdupdate.img` to the prepared bootable SD-card, confirming to overwrite existing file.
 2. Safely remove (unmount) SD-card from the computer.
