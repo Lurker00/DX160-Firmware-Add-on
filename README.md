@@ -16,10 +16,10 @@ For Windows, you should have installed drivers from Rockchip. You can download t
 **Note:** Updating an add-on removes additional [Magisk](https://magiskmanager.com/) modules. You'll have to re-install them after the update.
 
 ## How to return back to the official firmware
-If there is a manual OTA-like update package on the [iBasso web site](http://ibasso.com/down.php), it is enough to install it, then do a factory reset. Instead, you can search the [Releases](https://github.com/Lurker00/DX160-Firmware-Add-on/releases) section for a package for your firmware version, and apply it.
+It is enough to re-apply any official firmware update, then do a factory reset.
 
 ## How to update the official firmware
-True OTA does not work with add-on, because the build number is different. You have to return back to the official firmware ([see above](#how-to-return-back-to-the-official-firmware)), then use OTA, or download the manual update from [iBasso web site](http://ibasso.com/down.php) and install it. After that, you can apply the [add-on, compatible with the new firmware version](#history-of-public-releases).
+True OTA does not work with add-on, because the build number is different. You need to download the update from [iBasso site](http://ibasso.com/down.php), put it to SD-card or Internal storage, and start manual upgrade. Then you may install an add-on compatible with the new firmware version.
 
 ## Changes made
 It's up to the end user to decide whether these changes affect sound or not. I believe some of them make sound better, and none of them make sound worse.
